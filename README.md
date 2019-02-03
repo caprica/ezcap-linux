@@ -6,7 +6,7 @@ This was done some time ago, so some things may be a little bit out of date, but
 ## Background
 The EZCap USB Video Grabber is a seemingly, cheapo no-brand, I would go so far as to say in my opinion "crappy", USB video capture device that is used to grab video (and audio) from an analogue video camera.
 
-I acquired one of these as part of a Bird-box Nest-Cam project.
+I acquired one of these as part of a bird-box nest-cam project.
 
 Of course this device worked on Windows but did not work immediately on Linux. To add insult to injury the device does work on Mac OSX, but only after you pay more Apple Tax for no good reason for some bespoke software.
 
