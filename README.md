@@ -142,7 +142,7 @@ Note also that the "live-caching" setting is crucial, as without it the captured
 
 The quality of the captured footage is decent, but it is analog so is not optimal. The following image shows a snapshot from VLC captured this way:
 
-![Games console capture](https://github.com/caprica/ezcap-linux/raw/master/etc/game-console-capture.png)
+![Games console capture](https://github.com/caprica/ezcap-linux/raw/master/etc/games-console-capture.png)
 
 The point here is to show how it can be done on a Linux with a cheap capture device, it is recommended of course to use a dedicated games console capture device that can natively record and encode 1080p60 video, and have HMDI pass through to your TV.
 
