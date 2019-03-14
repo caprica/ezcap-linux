@@ -85,7 +85,7 @@ Of course it did not work right away in VLC, playing the "v4l2://" MRL showed no
 After some experimentation it turns out that it was necessary to explicitly specify the video width and height - the maximum dimensions supported by the device are 720x576, so:
 
 ```
-vlc --v4l2-dev /dev/video0 --v4l2-standard PAL_DK --v4l2-input 0 --v4l2-width 720 --v4l2-height 576 v4l2://
+vlc --v4l2-dev /dev/video0 --v4l2-standard PAL --v4l2-input 0 --v4l2-width 720 --v4l2-height 576 v4l2://
 ```
 
 Lo and behold, the video appears.
@@ -99,7 +99,7 @@ Up to this point, the video is working, but no audio.
 This is a simple matter of selecting the right audio input device. The correct value for this will change depending on what other audio cards are in the system, but for me this was "hw:2,0", so "--input-slave=alsa://hw:2,0", and:
 
 ```
-vlc --v4l2-dev /dev/video0 --v4l2-standard PAL_DK --v4l2-input 0 --v4l2-width 720 --v4l2-height 576 --input-slave=alsa://hw:2,0 v4l2://
+vlc --v4l2-dev /dev/video0 --v4l2-standard PAL --v4l2-input 0 --v4l2-width 720 --v4l2-height 576 --input-slave=alsa://hw:2,0 v4l2://
 ```
 
 ### Summary
